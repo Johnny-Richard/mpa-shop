@@ -1,5 +1,15 @@
 let cart = JSON.parse(localStorage.getItem("cart")) || []; // Carrega o carrinho do LocalStorage
 
+function showToast() {
+    let toast = document.getElementById("toast");
+    toast.classList.add("show");
+
+    // Remove o toast após 3 segundos
+    setTimeout(() => {
+        toast.classList.remove("show");
+    }, 3000);
+}
+
 function addToCart(productId) {
     fetch('products.json')
         .then(response => response.json())
@@ -16,6 +26,8 @@ function addToCart(productId) {
 
             localStorage.setItem("cart", JSON.stringify(cart)); // Salva no LocalStorage
             updateCartCount();
+
+            showToast();
         });
 }
 
