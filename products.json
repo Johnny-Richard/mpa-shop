@@ -4,14 +4,14 @@
         "name": "Imagem de Nossa Sra de Fátima",
         "price": 300.90,
         "category": "santos",
-        "image": "../assets/imagens-gesso/Nossa sra de fatima.jpg"
+        "image": "./assets/imagens-gesso/Nossa sra de fatima.jpg"
     },
     {
         "id": 2,
         "name": "Imagem de São Jorge",
         "price": 380.90,
         "category": "santos",
-        "image": "../assets/imagens-gesso/São Jorge.jpg"
+        "image": "./assets/imagens-gesso/São Jorge.jpg"
     },
     {
         "id": 3,
