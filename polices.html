@@ -3,40 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos - Loja de Imagens Religiosas</title>
+    <title>Loja de Imagens Religiosas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Produtos MPA</h1>
+        <h1>MPA Imagens Religiosas</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="products.html">Produtos</a></li>
-                <li><a href="./cart.html">Carrinho (<span id="cart-count">0</span>)</a></li>
+                <li><a href="cart.html">Carrinho (<span id="cart-count">0</span>)</a></li>
             </ul>
         </nav>
     </header>
     
     <main>
-        <h2>Categorias</h2>
-    <div id="categorias">
-        <button onclick="filtrarCategoria('todos')">Todos</button>
-        <button onclick="filtrarCategoria('anjos')">Anjos e Arcanjos</button>
-        <button onclick="filtrarCategoria('entidades')">Entidades</button>
-        <button onclick="filtrarCategoria('orixas')">Orixás</button>
-        <button onclick="filtrarCategoria('santos')">Santos</button>  
-    </div>
-    
-    <h2>Pesquisa de Produtos</h2>
-    <input type="text" id="search-input" placeholder="Pesquise por nome..." oninput="pesquisarProdutos()">
-
-    <h2>Produtos</h2>
-    <div id="product-list" class="grid-container">
-        <!-- Produtos serão inseridos aqui via JavaScript -->
-    </div>
+        <!-- Mensagem de Página em Construção -->
+        <div id="construction-message">
+            <h2>Página em construção! Em breve, novos produtos estarão disponíveis.</h2>
+        </div>
     </main>
-    
+
     <footer class="footer">
         <div class="footer-container">
           <div class="contact-info">
@@ -58,9 +46,9 @@
             <p>Formas de pagamento: Pix, Cartão de Crédito, Boleto</p>
           </div>
         </div>
-      </footer>
+      </footer>      
 
-    <script src="scripts/products.js"></script>
-    <script src="scripts/cart.js"></script> 
+    <script src="./scripts/cart.js"></script>
+    <script src="./scripts/script.js"></script>
 </body>
 </html>
