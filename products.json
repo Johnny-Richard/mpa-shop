@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "name": "Imagem de Nossa Sra de Fátima",
+        "price": 300.90,
+        "category": "santos",
+        "image": "../assets/imagens-gesso/Nossa sra de fatima.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Imagem de São Jorge",
+        "price": 380.90,
+        "category": "santos",
+        "image": "../assets/imagens-gesso/São Jorge.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Imagem de Tranca Rua",
+        "price": 450.00,
+        "category": "entidades",
+        "image": "../assets/imagens-gesso/tranca rua.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Imagem de Preta Velha",
+        "price": 120.00,
+        "category": "entidades",
+        "image": "../assets/imagens-gesso/pvelhadecoupage.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Imagem de Preto Velho",
+        "price": 120.00,
+        "category": "entidades",
+        "image": "../assets/imagens-gesso/pvcachimbo25.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Imagem de Exu Morcego",
+        "price": 340.00,
+        "category": "entidades",
+        "image": "../assets/imagens-gesso/exu morcego.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Imagem de Ogum",
+        "price": 130.00,
+        "category": "orixas",
+        "image": "../assets/imagens-gesso/ogum.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Imagem de Omulu",
+        "price": 200.00,
+        "category": "orixas",
+        "image": "../assets/imagens-gesso/omulu30.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Imagem de Obá",
+        "price": 120.00,
+        "category": "orixas",
+        "image": "../assets/imagens-gesso/oba30.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Imagem de Oxum",
+        "price": 150.00,
+        "category": "orixas",
+        "image": "../assets/imagens-gesso/oxum.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Imagem de Miguel Arcanjo",
+        "price": 143.00,
+        "category": "anjos",
+        "image": "../assets/imagens-gesso/smiguel1.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Imagem de Cigano Pablo",
+        "price": 160.00,
+        "category": "entidades",
+        "image": "../assets/imagens-gesso/cigano pablo.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Imagem de Boiadeiro",
+        "price": 230.00,
+        "category": "entidades",
+        "image": "../assets/imagens-gesso/boiadeiro.jpg"
+    }
+]
+

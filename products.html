@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Loja de Imagens Religiosas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Produtos MPA</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="products.html">Produtos</a></li>
+                <li><a href="./cart.html">Carrinho (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Categorias</h2>
+    <div id="categorias">
+        <button onclick="filtrarCategoria('todos')">Todos</button>
+        <button onclick="filtrarCategoria('anjos')">Anjos e Arcanjos</button>
+        <button onclick="filtrarCategoria('entidades')">Entidades</button>
+        <button onclick="filtrarCategoria('orixas')">Orixás</button>
+        <button onclick="filtrarCategoria('santos')">Santos</button>  
+    </div>
+    
+    <h2>Pesquisa de Produtos</h2>
+    <input type="text" id="search-input" placeholder="Pesquise por nome..." oninput="pesquisarProdutos()">
+
+    <h2>Produtos</h2>
+    <div id="product-list" class="grid-container">
+        <!-- Produtos serão inseridos aqui via JavaScript -->
+    </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="contact-info">
+            <h3>Contato</h3>
+            <p>Telefone/WhatsApp: (16) 98847-9045</p>
+            <p>E-mail: MPA@hotmail.com</p>
+          </div>
+          
+          <div class="social-media">
+            <h3>Siga-nos</h3>
+            <p><a href="https://www.instagram.com" target="_blank">Instagram</a></p>
+            <p><a href="https://www.facebook.com/michelangeloprodutos/?locale=pt_BR" target="_blank">Facebook</a></p>
+          </div>
+      
+          <div class="policies">
+            <h3>Informações</h3>
+            <p><a href="#">Política de Envio</a></p>
+            <p><a href="#">Política de Devolução</a></p>
+            <p>Formas de pagamento: Pix, Cartão de Crédito, Boleto</p>
+          </div>
+        </div>
+      </footer>
+
+    <script src="scripts/products.js"></script>
+    <script src="scripts/cart.js"></script> 
+</body>
+</html>
